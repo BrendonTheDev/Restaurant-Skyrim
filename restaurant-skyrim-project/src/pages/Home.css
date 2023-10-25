@@ -1,7 +1,12 @@
+body {
+  overflow: hidden;
+}
+
 .masthead {
   /* position: relative; */
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+  object-fit: cover;
   min-height: 35rem;
   padding: 15rem 0;
   background: linear-gradient(
@@ -15,7 +20,292 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
-.btn {
+.heading {
+  color: #ffffff;
+  font-size: 90px;
+  font-family: "skyrim", fantasy;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  /* text-shadow: 2px 0px 0px rgba(128, 0, 64, 1), 
+               3px 2px 0px rgba(77, 0, 38, 0.5), 
+			   3px 0px 3px rgba(255, 0, 43, 1), 
+			   5px 0px 3px rgba(128, 0, 21, 1), 
+			   6px 2px 3px rgba(77, 0, 13, 0.5), 
+			   6px 0px 9px rgba(255, 85, 0, 1), 
+			   8px 0px 9px rgba(128, 42, 0, 1), 
+			   9px 2px 9px rgba(77, 25, 0, 0.5), 
+			   9px 0px 18px rgba(255, 213, 0, 1), 
+			   11px 0px 18px rgba(128, 106, 0, 1), 
+			   12px 2px 18px rgba(77, 66, 0, 0.5), 
+			   12px 0px 30px rgba(212, 255, 0, 1), 
+			   14px 0px 30px rgba(106, 128, 0, 1), 
+			   15px 2px 30px rgba(64, 77, 0, 0.5), 
+			   15px 0px 45px rgba(128, 255, 0, 1), 
+			   17px 0px 45px rgba(64, 128, 0, 1), 
+			   17px 2px 45px rgba(38, 77, 0, 0.5); */
+}
+
+.sub-header {
+  color: #929292;
+
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  font-size: 30px;
+  /* letter-spacing: 0.25px; */
+}
+
+/* button */
+.btn-17,
+.btn-17 *,
+.btn-17 :after,
+.btn-17 :before,
+.btn-17:after,
+.btn-17:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-17 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: ;
+  color: #fff;
+  cursor: pointer;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.btn-17:disabled {
+  cursor: default;
+}
+.btn-17:-moz-focusring {
+  outline: auto;
+}
+.btn-17 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-17 [hidden] {
+  display: none;
+}
+.btn-17 {
+  border-radius: 99rem;
+  border-width: 2px;
+  padding: 0.8rem 3rem;
+  z-index: 0;
+}
+.btn-17,
+.btn-17 .text-container {
+  overflow: hidden;
+  position: relative;
+}
+.btn-17 .text-container {
+  display: block;
+  mix-blend-mode: difference;
+}
+.btn-17 .text {
+  display: block;
+  position: relative;
+}
+.btn-17:hover .text {
+  -webkit-animation: move-up-alternate 0.3s forwards;
+  animation: move-up-alternate 0.3s forwards;
+}
+@-webkit-keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(80%);
+  }
+  51% {
+    transform: translateY(-80%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(80%);
+  }
+  51% {
+    transform: translateY(-80%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.btn-17:after,
+.btn-17:before {
+  --skew: 0.2;
+  background: #fff;
+  content: "";
+  display: block;
+  height: 102%;
+  left: calc(-50% - 50% * var(--skew));
+  pointer-events: none;
+  position: absolute;
+  top: -104%;
+  transform: skew(calc(150deg * var(--skew))) translateY(var(--progress, 0));
+  transition: transform 0.2s ease;
+  width: 100%;
+}
+.btn-17:after {
+  --progress: 0%;
+  left: calc(50% + 50% * var(--skew));
+  top: 102%;
+  z-index: -1;
+}
+.btn-17:hover:before {
+  --progress: 100%;
+}
+.btn-17:hover:after {
+  --progress: -102%;
+}
+
+/* embers */
+
+.ember1 {
+  width: 2px;
+  height: 4px;
+  background: transparent;
+  animation: embersfly1 7s linear infinite;
+  box-shadow: 500px 840px #ffa500, 200px 800px #9f1010, 400px 1000px #ff4500,
+    434px 750px #ff4e00, 450px 600px #c70004, 524px 750px #b23600,
+    580px 1100px #ffa500;
+}
+
+.ember2 {
+  width: 3px;
+  height: 6px;
+  background: transparent;
+  animation: embersfly1 4s linear infinite;
+  box-shadow: 1250px 1000px #ffa500, 1200px 900px #800000, 1100px 800px #eee8aa,
+    1275px 845px #ffd700, 1220px 1300px #ff4e00;
+}
+
+.pulsating-light {
+  width: 1300px;
+  height: 200px;
+  opacity: 0.6;
+  box-shadow: 0px 100px 200px 100px orangered;
+  position: absolute;
+  left: 100px;
+  bottom: -200px;
+  border-radius: 50%;
+  background: orangered;
+  animation: pulsinglight 5s linear infinite alternate;
+}
+
+@keyframes pulsinglight {
+  0% {
+    box-shadow: 50px 80px 175px 80px orangred;
+  }
+  25% {
+    box-shadow: 120px 140px 200px 100px red;
+  }
+  50% {
+    box-shadow: 160px 140px 240px 160px orangered;
+  }
+  75% {
+    box-shadow: 120px 200px 280px 190px #ff8c00;
+  }
+  100% {
+    box-shadow: 80px 150px 190px 120px orangered;
+  }
+}
+
+.ember1:after {
+  content: "";
+  position: absolute;
+  top: 2000px;
+  width: 2px;
+  height: 4px;
+  background: transparent;
+  box-shadow: 500px 1000px #ffa500, 200px 1000px #9f1010, 400px 1000px #eea63d;
+}
+*/ .ember2 {
+  background: transparent;
+  animation: embersfly2 10s linear infinite;
+  width: 3px;
+  height: 6px;
+  box-shadow: 400px 1000px #eea63d;
+}
+.ember2:after {
+  content: "";
+  position: absolute;
+  top: 1000px;
+  background: transparent;
+  width: 3px;
+  height: 6px;
+  box-shadow: 400px 1000px #eea63d;
+}
+
+.ember3 {
+}
+.ember3:after {
+}
+
+@keyframes embersfly1 {
+  0% {
+    transform: translateY(0px) translateX(-10px);
+  }
+
+  10% {
+    transform: translateY(-200px) TranslateX(-70px);
+  }
+
+  20% {
+    transform: translateY(-400px) translateX(-90px);
+  }
+
+  30% {
+    transform: translateY(-600px) translateX(-120px);
+  }
+
+  40% {
+    transform: translateY(-800px) translateX(-80px);
+  }
+
+  50% {
+    transform: translateY(-1000px) translateX(-100px);
+  }
+
+  60% {
+    transform: translateY(-1200px) translateX(-110px);
+  }
+
+  70% {
+    transform: translateY(-1400px) translateX(-100px);
+  }
+
+  80% {
+    transform: translateY(-1600px) translateX(-130px);
+  }
+
+  90% {
+    transform: translateY(-1800px) translateX(-150px);
+  }
+
+  100% {
+    transform: translateY(-2000px) translateX(-130px);
+  }
+}
+
+@keyframes embersfly2 {
+}
+
+@keyframes embersfly3 {
 }

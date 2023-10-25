@@ -4,7 +4,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark navbar-custom">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             The Bannered Mare

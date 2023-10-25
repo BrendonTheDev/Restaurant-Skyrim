@@ -11,3 +11,14 @@
 .read-the-docs {
   color: #888;
 }
+
+.navbar-custom {
+  /* width: 100%; */
+  background-color: black;
+}
+
+@font-face {
+  font-family: "Skyrim"; /*Can be any text*/
+  src: local("DorovarflfCarolus-axyg.ttf"),
+    url(./fonts/DorovarflfCarolus-axyg.ttf), format("truetype");
+}
