@@ -1,4 +1,5 @@
 import React from "react";
+import MusicPlayer from "./Music";
 // import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -22,15 +23,16 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link tabs active" aria-current="page" href="#">
                 Home
               </a>
-              <a className="nav-link" href="#">
+              <a className="nav-link tabs" href="#">
                 Menu
               </a>
-              <a className="nav-link" href="#">
+              <a className="nav-link tabs" href="#">
                 Contact
               </a>
+              <MusicPlayer />
             </div>
           </div>
         </div>

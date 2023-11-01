@@ -1,35 +1,7 @@
 import "./Home.css";
 import React from "react";
-import useSound from "use-sound";
-import song from "../assets/song.mp3";
 
 function Home() {
-  const MusicPlayer = () => {
-    const [isPlaying, setIsPlaying] = React.useState(false);
-
-    const [playBoop, { pause }] = useSound(song, {
-      onplay: () => setIsPlaying(true),
-      onend: () => setIsPlaying(false),
-    });
-
-    const togglePlay = () => {
-      if (isPlaying) {
-        pause();
-      } else {
-        playBoop();
-      }
-      setIsPlaying(!isPlaying);
-    };
-
-    return (
-      <>
-        <button className="btn-17  btn-music" onClick={togglePlay}>
-          Play Music
-        </button>
-      </>
-    );
-  };
-
   return (
     <div>
       <section className="wrapper">
@@ -44,20 +16,12 @@ function Home() {
                   An unforgettable dining experience.
                 </h2>
                 <div className="btn-container">
-                  <MusicPlayer />
                   <button className="btn-17">View Menu</button>
                 </div>
               </div>
             </div>
           </div>
         </header>
-        <div className="ember1"></div>
-        <div className="ember2"></div>
-        <div className="ember3"></div>
-        <div className="ember4"></div>
-        <div className="ember5"></div>
-        <div className="ember6"></div>
-        <div className="pulsating-light"></div>
       </section>
     </div>
   );

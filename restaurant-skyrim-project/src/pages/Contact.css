@@ -1,0 +1,56 @@
+.masthead-contact {
+  /* position: relative; */
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000 100%
+    ),
+    url("../assets/map.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.contacts {
+  background-color: black;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 10px;
+  border: 4px solid #ffffff;
+  box-shadow: 12px 12px 12px rgb(0, 0, 0);
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 90px;
+  font-family: "skyrim", fantasy;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  padding-bottom: 1rem;
+}
+
+.sub-header {
+  color: #929292;
+
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  font-size: 26px;
+  /* letter-spacing: 0.25px; */
+}
+
+.hours {
+  color: #ffffff;
+
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  font-size: 30px;
+  /* letter-spacing: 0.25px; */
+}
