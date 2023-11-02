@@ -1,6 +1,6 @@
 import React from "react";
 import MusicPlayer from "./Music";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -24,13 +24,13 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               <a className="nav-link tabs active" aria-current="page" href="#">
-                Home
+                <Link to="/">Home</Link>
               </a>
               <a className="nav-link tabs" href="#">
-                Menu
+                <Link to="/menu">Menu</Link>
               </a>
               <a className="nav-link tabs" href="#">
-                Contact
+                <Link to="/contact">Contact</Link>
               </a>
               <MusicPlayer />
             </div>
