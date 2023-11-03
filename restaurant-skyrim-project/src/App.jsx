@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./pages/Navbar";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
-import Menutwo from "./pages/Menu2";
 import Contact from "./pages/Contact";
 import Embers from "./pages/Embers";
 import "./App.css";
