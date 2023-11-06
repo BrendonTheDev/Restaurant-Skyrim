@@ -26,16 +26,16 @@ body {
   z-index: -1;
 }
 
-.heading {
+.heading-home {
   color: #ffffff;
-  font-size: 90px;
+  font-size: 94px;
   font-family: "skyrim", fantasy;
   text-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
 .sub-header {
   color: #929292;
-
+  font-weight: 600;
   text-shadow: 1px 1px 5px rgb(0, 0, 0);
   font-size: 30px;
   /* letter-spacing: 0.25px; */

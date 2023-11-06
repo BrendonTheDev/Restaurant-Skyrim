@@ -14,12 +14,24 @@ function Contact() {
                   Contact Us!
                 </h1>
                 <div className="hours">
-                  <p>Thursday Lunch 11AM - 3PM | Dinner 4:30PM - 8PM</p>
-                  <p>Friday Lunch 11AM - 3PM | Dinner 4:30PM - 9PM</p>
-                  <p>Saturday Lunch 11AM - 3PM | Dinner 4:30PM - 9PM</p>
-                  <p>Sunday Brunch 11AM - 3PM</p>
-                  <p>ADDRESS: Top of the hill | WhiteRun, Skyrim</p>
-                  <p>TELEPHONE: Carrier Pidgeon or Illusion Spell</p>
+                  <p>
+                    <b>Thursday</b> | 11AM - 8PM
+                  </p>
+                  <p>
+                    <b>Friday</b> | 11AM - 9PM
+                  </p>
+                  <p>
+                    <b>Saturday</b> | 11AM - 10PM
+                  </p>
+                  <p>
+                    <b>Sunday</b> | Brunch 11AM - 3PM
+                  </p>
+                  <p>
+                    <b>ADDRESS</b> | Top of the hill, WhiteRun, Skyrim
+                  </p>
+                  <p>
+                    <b>TELEPHONE</b> | Carrier Pidgeon or Illusion Spell
+                  </p>
                 </div>
               </div>
             </div>

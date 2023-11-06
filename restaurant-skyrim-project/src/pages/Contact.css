@@ -31,6 +31,7 @@
   border-radius: 10px;
   padding: 6rem;
   border: transparent;
+  height: 880px;
 }
 
 .heading {
@@ -51,7 +52,7 @@
 }
 
 #pidgeon {
-  background-image: url("../assets/pigeon1.jpg");
+  background-image: url("../assets/pidgeon2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
