@@ -23,34 +23,47 @@
 }
 
 .contacts {
-  background-color: black;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(13, 13, 13, 1) 100%
+  );
   border-radius: 10px;
-  padding: 2rem;
+  padding: 6rem;
   margin: 10px;
-  border: 4px solid #ffffff;
-  box-shadow: 12px 12px 12px rgb(0, 0, 0);
+  border: transparent;
+}
+
+.contacts:hover {
+  transform: scale(1.05);
+  transition: 0.4s ease-in-out all;
 }
 
 .heading {
   color: #ffffff;
-  font-size: 90px;
+  font-size: 80px;
   font-family: "skyrim", fantasy;
   text-shadow: 1px 1px 5px rgb(0, 0, 0);
-  padding-bottom: 1rem;
-}
-
-.sub-header {
-  color: #929292;
-
-  text-shadow: 1px 1px 5px rgb(0, 0, 0);
-  font-size: 26px;
-  /* letter-spacing: 0.25px; */
 }
 
 .hours {
   color: #ffffff;
-
+  text-align: start;
+  line-height: 2rem;
   text-shadow: 1px 1px 5px rgb(0, 0, 0);
-  font-size: 30px;
+  font-size: 24px;
   /* letter-spacing: 0.25px; */
+  padding: 3rem 0 4rem 0;
+}
+
+#pidgeon {
+  background-image: url("../assets/pigeon1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 800px;
+}
+
+.img-container {
+  width: 50%;
 }

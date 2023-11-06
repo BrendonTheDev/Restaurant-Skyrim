@@ -7,7 +7,9 @@ function Contact() {
       <section className="wrapper">
         <header className="masthead-contact">
           <div className="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <div id="pidgeon" className="img-container"></div>
             <div className="d-flex justify-content-center contacts">
+              <div id="pidge" className="img-container-contact"></div>
               <div className="text-center">
                 <h1 className="heading mx-auto my-0 text-uppercase">
                   Contact Us!
