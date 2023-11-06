@@ -1,4 +1,6 @@
-# Skyrim Restaurant Project
+# Skyrim Restaurant Project🛡️
+![image](https://github.com/BrendonTheDev/Restaurant-Skyrim/assets/108491991/9b73e525-e771-4073-8267-53e5e64c088d)
+
 
 ## Motivation
 
