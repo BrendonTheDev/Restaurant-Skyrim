@@ -30,13 +30,7 @@
   );
   border-radius: 10px;
   padding: 6rem;
-  margin: 10px;
   border: transparent;
-}
-
-.contacts:hover {
-  transform: scale(1.05);
-  transition: 0.4s ease-in-out all;
 }
 
 .heading {
@@ -61,7 +55,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 800px;
+  height: 880px;
 }
 
 .img-container {
