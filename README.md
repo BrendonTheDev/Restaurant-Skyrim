@@ -4,7 +4,7 @@
 
 ## Motivation
 
-After falling into tutorial hell and sensing a lack of motivation I decided that I would create the remainder of my portfolio projects around topics that I am genuinely interested in. This led to the creation of my Skyrim inspired Restaurant Website. "The Bannered Mare".
+After having my progress disrupted bya family emergency and sensing a lack of motivation I decided that I would create the remainder of my portfolio projects around topics that I am genuinely interested in. This led to the creation of my Skyrim inspired Restaurant Website. "The Bannered Mare".
 
 ## Technologies and dependencies
 
