@@ -1,5 +1,6 @@
 import "./Home.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -16,7 +17,9 @@ function Home() {
                   An unforgettable dining experience.
                 </h2>
                 <div className="btn-container">
-                  <button className="btn-17">View Menu</button>
+                  <button className="btn-17">
+                    <Link to="/menu"> View Menu</Link>
+                  </button>
                 </div>
               </div>
             </div>

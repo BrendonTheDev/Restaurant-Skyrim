@@ -26,11 +26,12 @@ function Contact() {
                   <p>
                     <b>Sunday</b> | Brunch 11AM - 3PM
                   </p>
-                  <p>
-                    <b>ADDRESS</b> | Top of the hill, WhiteRun, Skyrim
+                  <br />
+                  <p className="bottom">
+                    <b>Top of the hill, WhiteRun, Skyrim</b>
                   </p>
-                  <p>
-                    <b>TELEPHONE</b> | Carrier Pidgeon or Illusion Spell
+                  <p className="bottom">
+                    <b>RSVP by Carrier Pidgeon or Illusion Spell</b>
                   </p>
                 </div>
               </div>

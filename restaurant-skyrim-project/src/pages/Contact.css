@@ -30,20 +30,21 @@
   );
   border-radius: 10px;
   padding: 6rem;
+  padding-top: 10rem;
   border: transparent;
   height: 880px;
 }
 
 .heading {
   color: #ffffff;
-  font-size: 80px;
+  font-size: 56px;
   font-family: "skyrim", fantasy;
   text-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 
 .hours {
   color: #ffffff;
-  text-align: start;
+  text-align: center;
   line-height: 2rem;
   text-shadow: 1px 1px 5px rgb(0, 0, 0);
   font-size: 24px;
@@ -61,4 +62,10 @@
 
 .img-container {
   width: 50%;
+}
+
+.bottom {
+  font-size: 20px;
+  line-height: 1rem;
+  text-align: center;
 }
