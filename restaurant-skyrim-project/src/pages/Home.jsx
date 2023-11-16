@@ -17,7 +17,7 @@ function Home() {
                   An unforgettable dining experience.
                 </h2>
                 <div className="btn-container">
-                  <button className="button-84">
+                  <button className="btn-17">
                     <Link to="/menu"> View Menu</Link>
                   </button>
                 </div>
